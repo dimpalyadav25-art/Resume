@@ -1,0 +1,143 @@
+
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
+    body{
+      background:#dcdcdc;
+      font-family:Arial, sans-serif;
+      padding:20px;
+    }
+
+    .resume{
+      width:900px;
+      margin:auto;
+      display:flex;
+      background:white;
+    }
+
+    /* LEFT SIDE */
+
+    .left{
+      width:35%;
+      background:#a7a896;
+      color:white;
+      padding:30px;
+    }
+
+    .profile-img{
+      width:100%;
+      text-align:center;
+      margin-bottom:25px;
+    }
+
+    .profile-img img{
+      width:220px;
+      height:260px;
+      object-fit:cover;
+    }
+
+    .title{
+      font-size:32px;
+      font-weight:bold;
+      letter-spacing:3px;
+      margin-bottom:15px;
+    }
+
+    .line{
+      width:100%;
+      height:2px;
+      background:#d7d7d7;
+      margin-bottom:15px;
+    }
+
+    .left p{
+      line-height:1.7;
+      margin-bottom:15px;
+    }
+
+    .contact p{
+      margin:10px 0;
+    }
+
+    ul{
+      margin-left:20px;
+      line-height:1.8;
+    }
+
+    /* RIGHT SIDE */
+
+    .right{
+      width:65%;
+      background:#f6f4ef;
+    }
+
+    .top{
+      background:#dedcd4;
+      padding:50px;
+    }
+
+    .top h1{
+      font-size:60px;
+      color:#4d4b3f;
+      margin-bottom:10px;
+    }
+
+    .top h3{
+      color:#8a8a73;
+      letter-spacing:4px;
+      font-weight:normal;
+    }
+
+    .content{
+      padding:35px;
+    }
+
+    .section{
+      margin-bottom:40px;
+    }
+
+    .section h2{
+      font-size:26px;
+      color:#666652;
+      letter-spacing:3px;
+      margin-bottom:10px;
+    }
+
+    .section hr{
+      margin-bottom:20px;
+    }
+
+    .section h4{
+      font-size:22px;
+      color:#555;
+      margin-bottom:10px;
+    }
+
+    .section p{
+      color:#666;
+      line-height:1.8;
+      margin-bottom:15px;
+    }
+
+    .section ul{
+      color:#666;
+    }
+
+    /* FOOTER */
+
+    .footer{
+      width:900px;
+      margin:auto;
+      background:#efeee9;
+      display:flex;
+      justify-content:space-around;
+      padding:20px;
+      color:#666652;
+      font-weight:bold;
+    }
+
+  
